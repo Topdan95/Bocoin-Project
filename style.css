@@ -4,17 +4,22 @@
     box-sizing: border-box;
 }
 header{
-    width: 80%;
+    width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
     height: 70px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0;
+    margin: auto;
+    padding:  0px 140px;
 }
 .nav{
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     align-items: center;
+    margin-right: 110px;
 }
 .nav li{
     list-style-type: none;
@@ -42,7 +47,7 @@ header{
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 90px;
     justify-content: space-around;
     margin-bottom: 60px;
 }
@@ -942,6 +947,58 @@ h6{
         width: 80%;
         margin: auto;
         padding-top: 30px;
-
+        padding-bottom: 10px;
     }
+    .box{
+        width: 50%;
+        margin: auto;
+        flex-direction: column;
+    }
+    .article {
+        width:400px;
+        flex-direction: column;
+    }
+    .article div{
+        margin-bottom: 20px;
+    }
+    .security {
+        width:400px;
+        flex-direction: column;
+        align-content: center;
+    }
+    .sec_img{
+        text-align: center;
+    }
+    .sec_img img {
+        width: 250px;
+        margin: auto;
+    }
+    .sec_text h1 {
+        font-size: 30px;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        line-height: 90%;
+        padding: 30px;
+    }
+    .trust {
+        width: 40%;
+        margin: auto;
+        border: 1px solid red;
+    }
+    .trusted-text h3 {
+        font-size: 40px;
+        width: 150%;
+        margin: auto;
+        text-align: center;
+        line-height: 90%;
+        padding-top: 30px;
+        margin-left:-70px;
+        flex-direction: column;
+    }
+    .trust_img, .vector4, .vector5, .trust_img1{
+        display: none;
+    }
+
+
 }
