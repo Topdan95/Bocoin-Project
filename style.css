@@ -27,6 +27,17 @@ header{
     line-height: 22px;
     color: #393939;
 }
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: black;
+}
 .hero{
     display: flex;
     width: 80%;
@@ -842,4 +853,77 @@ h6{
     color: #FFFFFF;
     margin-left: 1000px;
     margin-top: -150px;
+}
+@media screen and (max-width:768px) {
+    .nav{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hero{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .item{
+        width: 100%;
+    }
+    .item1{
+        justify-content: center;
+    }
+    .app img{
+        display: none;
+    }
+    .item2{
+        text-align: center;
+    }
+    .item2 img{
+        width: 350px;
+        padding-bottom: 40px;
+    }
+    .hero-text{
+        font-size: 35px;
+        line-height: 30px;
+    }
+    .dashboard{
+        text-align: center;
+        width: 80%;
+        margin: auto;
+    }
+    .dashboard img{
+        max-width: 400px;
+    }
+    .crypto{
+        flex-direction: column;
+        margin-bottom: 0px;
+    }
+    .profile1{
+        width: 100%;
+        text-align: center;
+    }
+    .profile1 img{
+        width: 300px;
+    }
+    .profile2{
+        width: 100%;
+        padding-bottom: 40px;
+    }
+    .profile2 h1{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 35px;
+        padding: 10px;
+        line-height: 100%;
+        font-weight: 700;
+    }
+    .profile2 p{
+        text-align: center;
+    }
+    .text1{
+        
+        width: 80%;
+        margin:auto;
+    }
 }
