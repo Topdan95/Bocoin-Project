@@ -13,13 +13,13 @@ header{
     position: fixed;
     top: 0;
     margin: auto;
-    padding:  0px 140px;
+    padding:  0px 120px;
 }
 .nav{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 110px;
+    margin-right: 310px;
 }
 .nav li{
     list-style-type: none;
@@ -684,7 +684,6 @@ h6{
     font-weight: 700;
     font-size: 30px;
     line-height: 48px;
-    
     color: #FFFFFF;
 }
 .footitem2{
@@ -713,23 +712,27 @@ h6{
     font-size: 16px;
     line-height: 32px;
     color: #FFFFFF;
-    
 }
 .media{
-display: flex;
-justify-content: space-around;
+    display: flex;
+    justify-content: space-around;
+    margin-left: -20px;
 }
 @media screen and (max-width:768px) {
     header{
         border-bottom: 1px solid grey;
-        width: 100%;
+        width: 55%;
+    }
+    .logo {
+        display: block;
+        margin-left: -80px;
     }
     .nav{
         display: none;
     }
     .hamburger{
         display: block;
-
+        margin-right: 50px;
     }
     .hero{
         flex-direction: column;
@@ -844,21 +847,11 @@ justify-content: space-around;
     .trust {
         width: 40%;
         margin: auto;
-        border: 1px solid red;
     }
-    .trusted-text h3 {
-        font-size: 40px;
-        width: 150%;
-        margin: auto;
-        text-align: center;
-        /* line-height: 90%; */
-        padding-top: 30px;
-        margin-left:-70px;
-        flex-direction: column;
-    }
-    .trust_img, .vector4, .vector5, .trust_img1{
+    .trusted-text h3, .vector6, .article1, .pic1, .pic2, .vector7 {
         display: none;
     }
-
-
+    .trust_img, .vector4, .vector5, .trust_img1, .article2{
+        display: none;
+    }
 }
