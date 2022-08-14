@@ -745,7 +745,7 @@ h6{
         text-align: center;
     }
     .sec_img img {
-        width: 250px;
+        width: 200px;
         margin: auto;
     }
     .sec_text h1 {
@@ -755,6 +755,10 @@ h6{
         text-align: center;
         line-height: 90%;
         padding: 30px;
+    }
+    .sec_text p {
+        font-size: 20px;
+        text-align: center;
     }
     .trust {
         width: 80%;
