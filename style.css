@@ -21,6 +21,21 @@ header{
     align-items: center;
     margin-right: 310px;
 }
+.nav li a{
+    list-style-type: none;
+    cursor: pointer;
+    margin-right: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #393939;
+    text-decoration: none;
+}
+.nav li a:hover {
+    color: blue;
+}
 .nav li{
     list-style-type: none;
     cursor: pointer;
