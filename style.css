@@ -276,7 +276,6 @@ h6{
 .sec_img1 {
     display: flex;
     flex-direction: column;
-    /* justify-content: left; */
     margin: 20px;
     margin-left: 2px;
 }
@@ -349,28 +348,38 @@ h6{
     margin: auto;
     justify-content: space-between;
 }
-.review1 {
-    background: #FFFFFF;
-    border: 1px solid rgba(196, 196, 196, 0.5);
-    box-shadow: 0px 12px 30px rgba(196, 196, 196, 0.3);
-    border-radius: 32px;
-    width: 540px;
-    height: 334px;
-    margin-right: 20px;  
+.space {
+    margin-left: 30px;
 }
 .review2 {
     background: #FFFFFF;
     border: 1px solid rgba(196, 196, 196, 0.5);
     box-shadow: 0px 12px 30px rgba(196, 196, 196, 0.3);
     border-radius: 32px;
-    width: 540px;
-    height: 334px;  
+    width: 50%;
+    padding:20px;
+}
+.row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.title {
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 .review1 img {
     display: flex;
     flex-direction: column;
     margin-left: 440px;
     margin-top: 15px;
+}
+.pic {
+    width: 70px;
 }
 .review1 div img {
     display: flex;
@@ -380,7 +389,6 @@ h6{
 .review1 div h5 {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -388,21 +396,17 @@ h6{
     line-height: 32px;
     color: #393939;
 }
-.review1 div h6 {
-    display: flex;
-    flex-direction: column;
-    margin-left: 150px;
+.p {
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
-    line-height: 22px;
-    color: #808080;
+    line-height: 25px;
+    color: #838383;
 }
 .review1 div p {
     display: flex;
     flex-direction: column;
-    margin-left: 30px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -424,7 +428,6 @@ h6{
 .review2 div h5 {
     display: flex;
     flex-direction: column;
-    margin-left: 150px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -443,7 +446,7 @@ h6{
     line-height: 22px;
     color: #808080;
 }
-.review2 div p {
+.para {
     display: flex;
     flex-direction: column;
     margin-left: 30px;
@@ -453,7 +456,7 @@ h6{
     font-size: 18px;
     line-height: 25px;
     color: #838383;
-}
+} 
 .story {
     background: linear-gradient(105.28deg, rgba(0, 117, 255, 0.245) 10%, rgba(196, 196, 196, 0.125) 29.21%, rgba(196, 196, 196, 0.125) 62.45%);
     filter: blur(0.5px);
@@ -462,7 +465,6 @@ h6{
     width: 80%;
     margin-left: 120px;
     margin-top: 100px;
-    
 }
 .earn h3 {
     font-family: 'Inter';
@@ -499,7 +501,7 @@ h6{
     margin-top: 20px;
     margin-left: 100px;
 }
-.first{
+.first {
     display: flex;
     flex-direction: column;
     background: #0075FF;
@@ -511,7 +513,7 @@ h6{
     margin-bottom: 30px;
     margin-top: 80px;
 }
-.first p{
+.first p {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -520,7 +522,7 @@ h6{
     padding-bottom: 13px;
     color: #FFFFFF;
 }
-.second{
+.second {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -536,7 +538,7 @@ h6{
     margin-right: 15px;
     margin-left: 20px;    
 }
-.third{
+.third {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -553,7 +555,7 @@ h6{
     line-height: 32px;
     color: #393939;
 }
-.three{
+.three {
     display: flex;
     width: 150px;
     justify-content: space-between;
@@ -566,7 +568,7 @@ h6{
     line-height: 17px;
     color: #393939;
 }
-.thirdly{
+.thirdly {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -813,12 +815,17 @@ h6{
     .review2 img {
         flex-direction: column;
         width: 5%;
-        margin-left: 350px;
+        margin-left: 335px;
     }
     .review2 div img {
         flex-direction: column;
         width: 20%;
         margin-left: 50px;
+    }
+    .space {
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0px;
     }
     .subfoot{
         flex-direction: column-reverse;
